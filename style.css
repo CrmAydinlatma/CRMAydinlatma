@@ -563,7 +563,17 @@ html,body {
 		display:inline-block;
 	}
 }
-
+@media (max-width: 620px ) {
+    .slide-desc{
+		right:0;
+	}
+	.slide-desc h1{
+        font-size: 20px;
+	}
+    .slide-desc .btn-red{
+       font-size: 12px;
+    }
+}
 
 @media (max-width: 480px ) {
 	.prdct .col-md-4,.prdct .col-md-3{
