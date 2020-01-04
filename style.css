@@ -585,6 +585,7 @@ html,body {
 	}
 
 }
+
 @media (max-width: 400px ) {
 	.owl-theme .owl-controls .owl-buttons div {
 	  display:none;
