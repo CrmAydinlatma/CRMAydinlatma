@@ -18,7 +18,8 @@
 	<!-- owl Style -->
 	<link rel="stylesheet" href="css\owl.carousel.css">
 	<link rel="stylesheet" href="css\owl.transitions.css">
-	
+	<!--Gallery-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.css">
   
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     
@@ -99,63 +100,90 @@
 					<div class="title">Masa Lambalari</div>
 					
 				</div>
-				<div class="row prdct"><!--Products-->
-					<div class="col-md-4">
+					<div class="row prdct"><!--Products-->
+				<div class="tz-gallery">
+					
+						<div class="col-md-4">
 						<div class="productwrap">
-							<div class="pr-img">
-								
-							<a href="product.htm"><img src="images\sample-1.jpg" alt="" class="img-responsive"></a>
-						
-							</div>
-							<span class="smalltitle"><a href="product.htm">Red T-Shirt</a></span>
-							<span class="smalldesc">Item no.: 1000</span>
+						<div class="pr-img" >
+							<a class="lightbox" href="product-img/avizeler/10.jpg">
+							<img  src="product-img/avizeler/10.jpg" alt="" id="resim" class="img-responsive">
+							</a>
 						</div>
-					</div>
-					<div class="col-md-4">
-						<div class="productwrap">
-						<div class="pr-img">
-							<a href="product.htm"><img src="images\sample-1.jpg" alt="" class="img-responsive"></a>
-						</div>
-							<span class="smalltitle"><a href="product.htm">Black Shoes</a></span>
-							<span class="smalldesc">Item no.: 1000</span>
-						</div>
-					</div>
-					<div class="col-md-4">
-						<div class="productwrap">
-						<div class="pr-img">
-							<a href="product.htm"><img src="images\sample-1.jpg" alt="" class="img-responsive"></a>
-						</div>
+				
 							<span class="smalltitle"><a href="product.htm">Nikon Camera</a></span>
 							<span class="smalldesc">Item no.: 1000</span>
 						</div>
 					</div>
+					
 						<div class="col-md-4">
 						<div class="productwrap">
 						<div class="pr-img">
-							<a href="product.htm"><img src="images\sample-1.jpg" alt="" class="img-responsive"></a>
+							<a class="lightbox" href="images\sample-1.jpg">
+							<img src="images\sample-1.jpg" alt="" id="resim" class="img-responsive">
+							</a>
 						</div>
+				
 							<span class="smalltitle"><a href="product.htm">Nikon Camera</a></span>
 							<span class="smalldesc">Item no.: 1000</span>
 						</div>
 					</div>
+					
 						<div class="col-md-4">
 						<div class="productwrap">
 						<div class="pr-img">
-							<a href="product.htm"><img src="images\sample-1.jpg" alt="" class="img-responsive"></a>
+							<a class="lightbox" href="images\sample-1.jpg">
+							<img src="images\sample-1.jpg" alt="" id="resim" class="img-responsive">
+							</a>
 						</div>
+				
 							<span class="smalltitle"><a href="product.htm">Nikon Camera</a></span>
 							<span class="smalldesc">Item no.: 1000</span>
 						</div>
 					</div>
+					
 						<div class="col-md-4">
 						<div class="productwrap">
 						<div class="pr-img">
-							<a href="product.htm"><img src="images\sample-1.jpg" alt="" class="img-responsive"></a>
+							<a class="lightbox" href="images\sample-1.jpg">
+							<img src="images\sample-1.jpg" alt="" id="resim" class="img-responsive">
+							</a>
 						</div>
+				
 							<span class="smalltitle"><a href="product.htm">Nikon Camera</a></span>
 							<span class="smalldesc">Item no.: 1000</span>
 						</div>
 					</div>
+					
+						<div class="col-md-4">
+						<div class="productwrap">
+						<div class="pr-img">
+							<a class="lightbox" href="images\sample-1.jpg">
+							<img src="images\sample-1.jpg" alt="" id="resim" class="img-responsive">
+							</a>
+						</div>
+				
+							<span class="smalltitle"><a href="product.htm">Nikon Camera</a></span>
+							<span class="smalldesc">Item no.: 1000</span>
+						</div>
+					</div>
+					
+						<div class="col-md-4">
+						<div class="productwrap">
+						<div class="pr-img">
+							<a class="lightbox" href="images\sample-1.jpg">
+							<img src="images\sample-1.jpg" alt="" id="resim" class="img-responsive">
+							</a>
+						</div>
+				
+							<span class="smalltitle"><a href="product.htm">Nikon Camera</a></span>
+							<span class="smalldesc">Item no.: 1000</span>
+						</div>
+					</div>
+					
+                    
+                    
+                    </div>
 				
 		
 	
@@ -233,12 +261,18 @@
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="bootstrap\js\bootstrap.min.js"></script>
 	
+	  <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
 
-   
+	
+
+     
 	
 	<!-- owl carousel -->
     <script src="js\owl.carousel.min.js"></script>
-
+    
+  <script>
+    baguetteBox.run('.tz-gallery');
+</script>
 	
 	<!-- custom js -->
     <script src="js\shop.js"></script>
